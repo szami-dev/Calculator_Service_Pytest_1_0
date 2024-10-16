@@ -9,3 +9,12 @@ class CalculatorService:
     def calculate_multiplication(self, a, b):
         data_from_repo = self._data_repository.get_data()
         return a * b * data_from_repo
+
+    def calculate_division(self, a, b):
+        data_from_repo = self._data_repository.get_data()
+        return a / b / data_from_repo
+
+    def calculate_subtraction(self, a, b):
+        data_from_repo = self._data_repository.get_data()
+        return a - b - data_from_repo
+        
